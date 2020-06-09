@@ -1,0 +1,291 @@
+.clear {
+    clear: both;
+}
+
+body {
+    background-color: #000;
+}
+
+main.box1 {
+    width: 1004px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main section.main1 {
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/store/typewriter-1170657_1920.jpg);
+    background-size: 100%;
+    box-sizing: border-box;
+    margin: 0 10 10 10;
+}
+
+main section.main1 h1 {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    line-height: 220px;
+    font-weight: bold;
+}
+
+main section article.store0 {
+    width: 1004px;
+    height: 50px;
+    background-color: black;
+    line-height: 20px;
+    border: solid white 1px;
+    box-sizing: border-box;
+}
+
+main section article.store0 h3 {
+    font-size: 18px;
+    margin: 10px 10px;
+    line-height: 50px;
+    color: white;
+    line-height: 25px;
+    float: left;
+}
+
+main section article.store0 > div {
+    float: right;
+    line-height: 50px;
+    padding-right: 20px;
+}
+
+main section article.store0 > div a {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(../img/store/plus.png);
+    background-size: 100%;
+}
+
+main section article.store0 > div.store0_1 a {
+    background-image: url(../img/store/plus2.png);
+}
+
+/*--------------------------------검색창*/
+main section.search {
+    width: 400px;
+    height: 90px;
+    float: right;
+    margin-right: -30px;
+}
+
+main section.search div {
+    float: left;
+}
+
+main section.search input {
+    width: 250px;
+    height: 48px;
+    margin: 20px 0;
+    display: block;
+    border: none;
+    float: left;
+}
+
+main section.search div.area a {
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+    color: white;
+    margin: 20px 0;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    background-color: #9e0b0f;
+}
+
+main section div.s_b a {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    background-image: url(../img/icon_search.PNG);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/*--------------------------------스토어리스트*/
+main section.store {
+    width: 1004px;
+    height: 1160px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+
+main section.mother div.b_1 {
+    width: 225px;
+    height: 150px;
+    background-image: url(../img/store/gundea_1.png);
+    background-size: auto 100%;
+    background-color: aquamarine;
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+main section.mother div.txt1 {
+    width: 759px;
+    height: 150px;
+    background-color: white;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+main section.mother div.txt1 h2 {
+    font-size: 18px;
+    padding: 10px;
+}
+
+main section.mother div.txt1 p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+main section.mother div.b_2 {
+    width: 225px;
+    height: 150px;
+    background-image: url(../img/store/ghang1.jpg);
+    background-size: auto 100%;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+main section.mother div.b_3 {
+    width: 225px;
+    height: 150px;
+    background-image: url(../img/store/yeouido1.png);
+    background-size: auto 100%;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+main section.mother div.b_4 {
+    width: 225px;
+    height: 150px;
+    background-image: url(../img/store/uijeongnu1.png);
+    background-size: auto 100%;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+main section.mother div.b_5 {
+    width: 225px;
+    height: 150px;
+    background-image: url(../img/store/ilsan2.png);
+    background-size: auto 100%;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/*-----------------button---------*/
+div.more_btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+span.text {
+    display: inline-block;
+    width: 350px;
+    height: 50px;
+    font-size: 24px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: 45px;
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+main section span.text:hover {
+    background-color: #a3071b;
+    color: white;
+}
+
+main section.mother div.bt1 {
+    float: right;
+    margin: 0 10px 10px 10px;
+    width: 100px;
+    height: 50px;
+}
+
+main section.mother div.bt1 a {
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 90px; right: 10px;
+}
+main section.mother div.bt1 a:hover{
+    background-color: #a3171b;
+}
+/*--------*디스플레이-인라인블럭 넣기-----내부 버튼-------*/
+
+
+/*-------------마지막-----------
+main article.store1 {
+    width: 1004px;
+    height: 50px;
+    background-color: black;
+    margin: 10px 10px 0 0;
+    border: solid white 1px;
+    box-sizing: border-box;
+}
+main section article.store0 {
+    width: 1004px;
+    height: 50px;
+    background-color: black;
+    line-height: 20px;
+    margin-top: 10px;
+    border: solid white 1px;
+    box-sizing: border-box;
+}
+main article.store1 h3 {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+main article.store2 {
+    width: 1004px;
+    height: 50px;
+    background-color: black;
+    margin: 0px;
+    border: solid white 1px;
+    box-sizing: border-box;
+}
+
+main article.store2 h3 {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+main article.store3 {
+    width: 1004px;
+    height: 50px;
+    background-color: black;
+    margin: 0px;
+    border: solid white 1px;
+    box-sizing: border-box;
+}
+
+main article.store3 h3 {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+*/

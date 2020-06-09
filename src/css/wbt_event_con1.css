@@ -1,0 +1,85 @@
+.main{
+    width: 1024px;
+    margin: 00 auto;
+    padding-bottom: 10px;
+}
+
+main section.menuid{
+    width: 1004px; height: 250px;
+    margin: 0 10px 10px 10px;
+    background-image: url(../img/christmas-1911637_1920.jpg);
+    background-size: 1004px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    line-height: 250px;
+}
+main section.e_content article.e_c_top{
+    width: 1004px; height: 50px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    box-sizing: border-box;
+    margin: 00 10px;
+}
+main section.e_content article.e_c_top div{
+    width: 50px; height: 48px;
+    float: left;
+    text-align: center;
+    line-height: 48px;
+}
+main section.e_content article.e_c_top div:last-child{
+    float: right;
+}
+main section.e_content article.e_c_top div a{
+    width: 50px; height: 50px;
+    display: inline-block;
+    font-size: 28px;
+}
+
+main section.e_content article.e_c_top div.e_c_t_close a{
+    width: 50px; height: 50px;
+    display: inline-block;
+    font-size: 24px;
+}
+main section.e_content article.e_c_top div a:hover{
+    background-color: #a3171b;
+    color: white;
+}
+main section.e_content article.e_c_title{
+    width: 1004px; height: 150px;
+    background-color: white;
+    margin: 00 10px;
+    padding: 20px;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+main section.e_content article.e_c_title h1{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+main section.e_content article.e_c_title p{
+    font-size: 14px;
+}
+main section.e_content article.e_c_img{
+    width: 1004px; height: 1200px;
+    background-color: white;
+    margin: 00 10px;
+    padding: 20px 17px;
+    border: 1px solid black;
+    border-top: none;
+    box-sizing: border-box;
+}
+main section.e_content article.e_c_img div{
+    width: 970px; height: 1160px;
+    margin: 0 auto;
+    background-image: url(../img/event_con/event_page.jpg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

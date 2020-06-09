@@ -1,0 +1,168 @@
+main section.main{
+    width: 1024px; height: 1600px;
+    margin: 00 auto;
+}
+main section.menuid{
+    width: 1004px; height: 250px;
+    margin: 0 10px;
+    background-image: url(../img/menuid_alcohol-1961542_1920.jpg);
+    background-size: 1004px;
+    background-position: 0 -270px;
+}
+main section.menuid p{
+    text-align: center;
+    line-height: 250px;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+/*---------------------------------------검색창*/
+main section.search {
+    width: 400px;
+    float: right;
+    margin: 20px 10px;
+}
+main section.search div.s_area a{
+    width: 100px; height: 50px;
+    display: inline-block;
+    background-color: darkred;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    
+}
+main section.search div.s_area a:hover{
+    background-color: #6f0000;
+}
+main section.search input.s_t{
+    width: 250px; height: 50px;
+    border: none;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+main section.search div.s_b a{
+    width: 50px; height: 50px;
+    background-color: white;
+    display: inline-block;
+    float: right;
+    background-image: url(../img/icon_search.PNG);
+    transition: background
+}
+main section.search div.s_b a:hover{
+    background-color: gray;
+}
+/*-----------------------------------------------------스토어 리스트*/
+main section.storelist article{
+    width: 1004px; height: 230px;
+    background-color: white;
+    margin: 10px;
+}
+main section.storelist article:first-child{
+    margin-top: 90px;
+}
+main section.storelist article:last-child{
+    margin-bottom: 10px;
+}
+main section.storelist article div{
+    width: 330px; height: 230px;
+    float: left;
+    overflow: hidden;
+}
+
+main section.storelist article.s1 div a.img{
+    width: 330px; height: 230px;
+    display: inline-block;
+    background-image: url(../img/storeimg/gundea_1.png);
+    background-size: 100% auto;
+    margin: 0 auto;
+    transition: transform 1s;
+}
+main section.storelist article.s2 div a.img{
+    width: 330px; height: 230px;
+    display: inline-block;
+    background-image: url(../img/storeimg/ghang1.jpg);
+    background-size: 100% auto;
+    margin: 0 auto;
+    transition: transform 1s;
+}
+main section.storelist article.s3 div a.img{
+    width: 330px; height: 230px;
+    display: inline-block;
+    background-image: url(../img/storeimg/yeouido1.png);
+    background-size: 100% auto;
+    margin: 0 auto;
+    transition: transform 1s;
+}
+main section.storelist article.s4 div a.img{
+    width: 330px; height: 230px;
+    display: inline-block;
+    background-image: url(../img/storeimg/uijeongnu1.png);
+    background-size: 100% auto;
+    margin: 0 auto;
+    transition: transform 1s;
+}
+main section.storelist article.s5 div a.img{
+    width: 330px; height: 230px;
+    display: inline-block;
+    background-image: url(../img/storeimg/ilsan3.png);
+    background-size: 100% auto;
+    margin: 0 auto;
+    transition: transform 1s;
+}
+
+main section.storelist article div a.img:hover{
+    transform: scale(1.1);
+}
+
+/*---------text*/
+main section.storelist article div.text{
+    width: 670px; height: 230px;
+    padding: 30px;
+    box-sizing: border-box;
+    float: right;
+}
+main section.storelist article p{
+    margin: 10px;
+}
+p span.title a{
+    font-size: 18px;
+    font-weight: bold;
+}
+p span.content{
+    font-size: 14px;
+}
+/*--------위치보기*/
+main section.storelist article div.lo_de a{
+    width: 160px; height: 40px;
+    margin: 10px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    display: inline-block;
+    transition: background;
+}
+main section.storelist article div.lo_de a:hover{
+    background-color: #a3171b;
+}
+/*-------------------------------------------------more*/
+main div.more a{
+    width: 350px; height: 50px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 337px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+main div.more a:hover{
+    background-color:  #a3171b;
+    color: white;
+}

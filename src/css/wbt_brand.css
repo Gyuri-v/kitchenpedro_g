@@ -1,0 +1,108 @@
+/*-----------------------------------------main*/
+main{
+    width: 100%;
+    background-color: black;
+    margin: 0 auto;
+    padding-top: 130px;
+   
+}
+main div.brand{
+   width: 1024px; height: 250px;
+   margin: 0px auto;
+    color: gainsboro;
+    text-align: center;
+    line-height: 250px;
+font-size: 48px;
+     background-image:url(../img/Monochromatic%20Food%20Photography.jpg);
+    background-position: 0 380px;
+     font-weight: bold;
+}
+main section{
+   margin: auto;
+    width: 1004px; height: 150px;
+    background-color: black;
+    
+}
+main section div.box1{
+    height: 150px;
+    font-size: 40px;
+    color: gainsboro;
+   margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+main section div.box2{
+    font-size: 18px;
+color: gainsboro;
+ text-align: center;
+    padding: 10px;
+   
+}
+   
+main section#s_box{
+    width: 1004px; height: 600px;
+    background-color: black;
+   margin-top: 100px;
+   
+}
+main section#s_box article.left{
+    width: 600px; height: 600px;
+    color: gainsboro;
+    float: left;
+    text-align: center;
+   padding: 250px 50px;
+    box-sizing: border-box;
+    }
+
+main section#s_box article.right{
+    width: 400px; height: 600px;
+    float: right;
+text-align: right;
+    font-size: 18px;
+        }
+
+main div.im{
+   box-sizing: border-box;
+    width: 834px; height: 400px;
+    background-color: black;
+    margin: 50px auto;
+    }
+main section#t_box{
+    height: 600px;
+   
+    margin-top: 170px;
+   
+}
+main section#t_box article.left1{
+    width: 497px; height: 600px;
+
+    float: left;
+    margin-right: 10px;
+    color: gainsboro;
+}
+
+main section#t_box article.left1 h1{
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+main section#t_box article.left1 h1 p{
+    padding-top: 20px;
+    text-align: center;
+}
+main section#t_box article.right1{
+    width: 497px; height: 600px;
+ 
+    float: right;
+  
+}
+main div.im_box{
+    width: 1004px;  height: 500px;
+    margin: 90px auto 0;
+    background-image: url(../img/sub_brand/brand_4.jpg);
+    background-size:  100% ;
+    background-repeat: no-repeat;
+}

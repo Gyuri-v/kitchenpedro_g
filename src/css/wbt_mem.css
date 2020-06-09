@@ -1,0 +1,273 @@
+main div.mem{
+    width: 1024px; height: 250px;
+    background-color: black;
+    margin: 0px auto;
+   text-align: center;
+    line-height: 250px;
+    color: gainsboro;
+    font-size: 48px;
+    font-weight: bold;
+    background-image: url(../img/Food%20Photography%20&%20Art%20Direction%20by%20Moataz%20Mohamed%20_%20Inspiration%20Grid.jpg);
+    background-size: 100%;
+    background-position: 0 -150px;
+
+    padding-top: 10px;
+    box-sizing: border-box;
+   
+  }
+main section#co{
+    width: 1004px; height: 695px;
+
+    margin: 60px auto 0;
+  padding: 10px;
+    box-sizing: border-box;
+}
+    
+main section#co article.box1{
+    width: 822px; height: 295px;
+    margin: 0px auto;
+   
+    
+}    
+main section#co article.box1 ul.co_btn li{
+    float: left;
+    margin-right:45px;
+}
+
+
+main section#co article.box1 ul.co_btn li:last-child {
+    margin-right: 0;
+}
+main section#co article.box1 ul.co_btn li div.pic_im1{
+    width: 244px; height: 125px;
+    background-color: black;
+    background-image: url(../img/coupon.png);
+    background-size: 100%;
+  background-position: center ;
+     color: gainsboro;
+   
+}
+
+main section#co article.box1 ul.co_btn li div.pic_ti1{
+    width: 244px; height: 45px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+     color: gainsboro;
+    font-size: 24px;
+}
+main section#co article.box1 ul.co_btn li  div.pic_ex1{
+    width: 244px; height: 80px;
+    text-align: center;
+    font-size: 16px;
+     color: gainsboro;
+ 
+}
+
+main section#co article.box1 ul.co_btn li a div.pic_co1{
+    width: 170px; height: 30px;
+   text-align: center;
+    border: 1px solid gainsboro;
+    margin-left: 40px;
+     color: gainsboro;
+   padding: 2px;
+    box-sizing: border-box;
+}
+
+
+main section#co article.box1 ul.co_btn li div.pic_im2{
+    width: 244px; height: 125px;
+    background-color: black;
+    background-image: url(../img/coupon_birthday.png);
+    background-size: 100%;
+    background-position: center;
+    color: gainsboro;
+    background-repeat: no-repeat;
+}
+main section#co article.box1 ul.co_btn li  div.pic_ti2{
+    width: 244px; height: 45px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+     color: gainsboro;
+}
+main section#co article.box1 ul.co_btn li  div.pic_ex2{
+    width: 244px; height: 80px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+     color: gainsboro;
+}
+
+main section#co article.box1 ul.co_btn li a div.pic_co2{
+    width: 170px; height: 30px;
+   text-align: center;
+    border: 1px solid gainsboro;
+    margin-left: 40px;
+     color: gainsboro;
+    padding: 2px;
+    box-sizing: border-box;
+}
+main section#co article.box1 ul.co_btn li div.pic_im3{
+    width: 244px; height: 125px;
+    background-color: black;
+    background-image: url(../img/mem_coupon-bear.png);
+    background-size: 100%;
+    background-position: center;
+    color: gainsboro;
+}
+main section#co article.box1 ul.co_btn li div.pic_ti3{
+    width: 244px; height: 45px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+     color: gainsboro;
+}
+main section#co article.box1 ul.co_btn li div.pic_ex3{
+    width: 244px; height: 80px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+     color: gainsboro;
+}
+main section#co article.box1 ul.co_btn li a div.pic_co3{
+    width: 170px; height: 30px;
+   text-align: center;
+    border: 1px solid gainsboro;
+    margin-left: 40px;
+     color: gainsboro;
+    padding: 2px;
+    box-sizing: border-box;
+}
+main section#co article.box1 ul.co_btn li a div.pic_co3:hover{
+    background-color: #a3171b;
+ color: black
+}
+main section#co article.box1 ul.co_btn li a div.pic_co2:hover{
+    background-color: #a3171b;
+}
+main section#co article.box1 ul.co_btn li a div.pic_co1:hover{
+    background-color: #a3171b;
+    
+}
+main section#co article.box2{
+width: 822px; height: 295px;
+    
+    margin: 80px auto ;
+    text-align: center;
+  
+}
+main section#co article.box2 ul.co2_btn li{
+    float: left;
+   margin-right: 45px;  
+}
+main section#co article.box2 ul.co2_btn li:last-child{
+    margin-right: 0;
+}
+main section#co article.box2 ul.co2_btn li div.im {
+    
+    width: 244px; height: 125px;
+    background-color: black;
+    background-image: url(../img/event.png);
+    background-size: 100%;
+    background-position: center;
+    color: gainsboro;
+    background-repeat: no-repeat;
+    
+}
+main section#co article.box2 ul.co2_btn li div.tit1{
+    width: 244px; height: 45px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+     color: gainsboro;
+    font-size: 24px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+main section#co article.box2 ul.co2_btn li div.tit2{
+    width: 244px; height: 80px;
+    text-align: center;
+    font-size: 16px;
+     color: gainsboro;
+padding-top: 10px;
+    box-sizing: border-box;
+}
+main section#co article.box2 ul.co2_btn li div.im2 {
+    
+    width: 244px; height: 125px;
+    background-color: black;
+    background-image: url(../img/dicount.png);
+    background-size: 100%;
+    background-position: center;
+    color: gainsboro;
+    background-repeat: no-repeat;
+    
+}
+main section#co article.box2 ul.co2_btn li div.tit3{
+    width: 244px; height: 45px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+     color: gainsboro;
+    font-size: 24px;
+}
+main section#co article.box2 ul.co2_btn li div.tit4{
+    width: 244px; height: 80px;
+    text-align: center;
+    font-size: 16px;
+     color: gainsboro;}
+main section#co article.box2 ul.co2_btn li div.im3 {
+    
+    width: 244px; height: 125px;
+    background-color: black;
+    background-image: url(../img/wine.png);
+    background-size: 75%;
+    background-position: center;
+    color: gainsboro;
+    background-repeat: no-repeat;
+    
+}
+main section#co article.box2 ul.co2_btn li div.tit5{
+    width: 244px; height: 45px;
+    padding-top: 10px;
+    text-align: center;
+    font-weight: bold;
+     color: gainsboro;
+    font-size: 24px;
+}
+main section#co article.box2 ul.co2_btn li div.tit6{
+    width: 244px; height: 80px;
+    text-align: center;
+    font-size: 16px;
+     padding-top: 10px;
+    box-sizing: border-box;
+    color: gainsboro;
+}
+section#ex{
+    width: 1004px; height: 500px;
+    
+    margin: 10px auto 0 ;
+    padding: 52px;
+    box-sizing: border-box;
+}
+section#ex div.title{
+    font-size: 20px;
+    color: gainsboro;
+}
+section#ex div.sub{
+    margin-top: 30px;
+    color: gainsboro;
+    font-size: 15px;
+}
+section#ex div.t_box{
+    width: 904px; height: 257px;
+    margin: 20px auto;
+    color: gainsboro;
+    font-size: 10px;
+    color: gray;
+}

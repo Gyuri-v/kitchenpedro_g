@@ -1,0 +1,94 @@
+main section.mainbox {
+    width: 1004px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main section.menuid {
+    width: 1004px;
+    height: 250px;
+    box-sizing: border-box;
+    margin: 0 10px 10px 10px;
+}
+
+main section.menuid {
+    background-image: url(../img/christmas-1911637_1920.jpg);
+    background-size: 1004px;
+    width: 1004px;
+    height: 240px;
+}
+
+main section.menuid h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    line-height: 220px;
+}
+
+main section {
+    width: 1004px;
+    height: 230px;
+    background-color: black;
+    margin: 0 10px 10px 10px;
+}
+
+main section.box1 article.thumnail div.img1 {
+    width: 330px;
+    height: 230px;
+    background-color: aquamarine;
+    float: left;
+}
+
+main section.box1 article.thumnail div.txt1 {
+    width: 674px;
+    height: 230px;
+    background-color: white;
+    float: right;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+main section.box1 article.thumnail div.txt1 h2 {
+    font-size: 20px;
+    margin: 14px 0;
+}
+
+main section.box1 article.thumnail div.txt1 p {
+    font-size: 14px;
+    margin: 30px 0;
+}
+
+main section.box1 article.thumnail div a.btn_bnr {
+    display: inline-block;
+    width: 158px;
+    height: 42px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 45px;
+}
+
+main section.box1 article.thumnail div a.btn_bnr:hover {
+    background-color: #a3071b;
+}
+
+span.text {
+    display: inline-block;
+    width: 350px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    background-color: #fff;
+    text-align: center;
+    line-height: 45px;
+    margin-left: 337px;
+    margin-bottom: 10px;
+}
+
+span.text:hover {
+    background-color: #a3071b;
+    color: white;
+}

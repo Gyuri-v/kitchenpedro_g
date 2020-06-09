@@ -1,0 +1,267 @@
+main section.main_top{
+    width: 100%;
+}
+main section.main_bottom{
+    width: 1004px;
+    margin: 0 auto;
+}
+/*----------------------------------------상단 배너*/
+main article.banner{
+    width: 100%; height: 900px;
+    overflow: hidden;
+}
+main article.banner a.bannerimg{
+    width: 100%; height: 900px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+main article.banner a.bi1{
+    background-image: url(../img/event_banner4.jpg);
+}
+main article.banner a.bi2{
+    background-image: url(../img/event_banner2.png);
+}
+/*----------------------------------------------newmenu*/
+main p.nmtitle{
+    width: 100%; height: 100px;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+main article.new_menu div.nmimg{
+    width: 100%; height: 500px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    position: relative;
+}
+main article.new_menu div.nmimg a.nmimg_a{
+    width: 100%; height: 500px;
+    display: inline-block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+main article.new_menu div.nmimg a.na1{
+    background-image: url(../img/newmenu/newmenu1.png);
+}
+main article.new_menu div.nmimg a.na2{
+    background-image: url(../img/newmenu/newmenu2.png);
+}
+main article.new_menu div.nmimg a.na3{
+    background-image: url(../img/newmenu/newmenu3.png);
+}
+
+/*--------------------------------------menubox*/
+main article.menubox{
+    width: 100%; height: 750px;
+    margin: 00 auto;
+    margin-bottom: 200px;
+}
+main article.menubox div{
+    float: left;
+    overflow: hidden;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+main article.menubox div.m_drink,
+main article.menubox div.m_rice,
+main article.menubox div.m_dessert,
+main article.menubox div.m_pizza{
+    width: 25%; height: 33.33%;
+}
+main article.menubox div.m_steak{
+    width: 50%; height: 33.33%;
+}
+main article.menubox div.m_pasta{
+    width: 25%; height: 66.66%;
+}
+main article.menubox div.m_new{
+    width: 50%; height: 66.66%;
+    float: right;
+}
+main article.menubox div a{
+    width: 100%; height: 100%;
+    display: table;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 1s;
+}
+main article.menubox div.m_drink a{
+    background-image: url(../img/menubox/drink.png);
+}
+main article.menubox div.m_rice a{
+    background-image: url(../img/menubox/rice.png);
+}
+main article.menubox div.m_dessert a{
+    background-image: url(../img/menubox/dessert.png);
+}
+main article.menubox div.m_pizza a{
+    background-image: url(../img/menubox/pizza.png);
+}
+main article.menubox div.m_steak a{
+    background-image: url(../img/menubox/steak.png);
+}
+main article.menubox div.m_pasta a{
+    background-image: url(../img/menubox/pasta.png);
+    background-position: -200px 0;
+}
+main article.menubox div.m_new a{
+    background-image: url(../img/menubox/new.png);
+}
+main article.menubox div a p{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+}
+main article.menubox div a:hover{
+    transform: scale(1.1);
+}
+main article.menubox div a:hover p{
+    background-color: rgb(0,0,0,0.3)
+}
+/*---------------------------------brand & store*/
+main article.b-s{
+    width: 80%; height: 420px;
+    background-color: black;
+    margin: 00 auto;
+    margin-bottom: 200px;
+}
+main article.b-s div.b-s-b,
+main article.b-s div.b-s-s{
+    width: 50%; height: 420px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+main article.b-s div a{
+    width: 100%; height: 100%;
+    display: block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    color: white;
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: center;
+    line-height: 420px;
+    transition: transform 1s;
+    text-indent: 999999px;   
+}
+main article.b-s div.b-s-b a{
+    background-image: url(../img/b-s/brand.JPG);
+    background-size: auto 100%;
+    background-position: -240px 0; 
+}
+main article.b-s div.b-s-b::after{
+    content: "BRAND";
+    color: white;
+    font-size: 24px; 
+    font-weight: bold;
+    position: absolute;
+    display: block;
+    z-index: 99999;
+    top:180px; left: 170px;
+}
+main article.b-s div.b-s-s a{
+    background-image: url(../img/b-s/store2.png);
+    background-size: auto 100%;
+    background-position: -100px 0; 
+}
+main article.b-s div.b-s-s::after{
+    content: "STORE";
+    color: white;
+    font-size: 24px; 
+    font-weight: bold;
+    position: absolute;
+    display: block;
+    z-index: 99999;
+    top: 180px; right: 170px;
+}
+main article.b-s div a:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+/*-----------------------------------membership*/
+main article.membership{
+    width: 100%; height: 600px;
+    background-color: black;
+    margin: 00 auto;
+    padding-bottom: 100px;
+}
+main article.membership h2{
+    width: 100%; height: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+main article.membership div.mem_wrap{
+    display: flex;
+    justify-content: center;
+}
+main article.membership div.mem{
+    width: 25%; height: 250px;
+    float: left;
+    margin: 0 25px;
+}
+main article.membership div div.m1_img{
+    width: 100%; height: 50%;
+    background-image:url(../img/membership/coupon.png);
+    background-size: 100%;
+    background-position: -5px -25px;
+}
+main article.membership div div.m2_img{
+    width: 100%; height: 50%;
+    background-image:url(../img/icon_discount.png);
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main article.membership div div.m3_img{
+    width: 100%; height: 50%;
+    background-image:url(../img/icon_wine.png);
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main article.membership div p.m_t{
+    width: 100%; height: 20%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+main article.membership div p.m_c{
+    width: 100%; height: 30%;
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    color: #808285;
+}
+main article.membership div.mem_more{
+    width: 350px; height: 50px;
+    margin: 00 auto;
+    margin-top: 45px;
+}
+main article.membership div.mem_more a{
+    width: 100%; height: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #a3171b;
+}
+main article.membership div.mem_more a:hover{
+    background-color: #6f0000;
+}

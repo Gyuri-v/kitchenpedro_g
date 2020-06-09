@@ -1,0 +1,178 @@
+/*-----------------------------------------main*/
+main{
+    width: 100%; height: 1340px;
+    background-color: white;
+    padding-top: 130px;
+}
+main section#category{
+    width: 1004px; height: 250px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 250px;
+    background-image: url(../img/category_img_new.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0 auto;
+}
+main section#new{
+    width: 1004px; height: 868px;
+    background-color: white;
+    margin: 10px auto 10px;
+}
+main section#new article.menu_box{
+    width: 1004px; height: 868px;
+}
+main section#new article.menu_box ul.top_bot_menu li{
+    width: 497px; height: 100%;
+    margin: 0 0 10px 10px;
+    float: left;
+}
+main section#new article.menu_box ul.top_bot_menu li:first-child{
+    margin-left: 0px;
+}
+main section#new article.menu_box ul.top_bot_menu li div.top_bot_imgbox{
+    width: 497px; height: 350px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+main section#new article.menu_box ul.top_bot_menu li div.top_bot_imgbox_2{
+    width: 497px; height: 228px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+main section#new article.menu_box ul.top_bot_menu li div ul a{
+    width: 100%; height: 350px;
+    display: inline-block;
+    background-size: contain;
+    position: relative;
+}
+main section#new article.menu_box ul.top_bot_menu li div.top_bot_imgbox_2 ul a{
+    height: 228px;
+    background-position: center;
+}
+a.img01{
+    background-image: url(../img/new_menu_01.png);
+}
+a.img02{
+    background-image: url(../img/new_menu_02.png);
+}
+a.img06{
+    background-image: url(../img/new_menu_06.png);
+}
+a.img07{
+    background-image: url(../img/new_menu_07.png);
+}
+main section#new article.menu_box ul li div ul a li.new{
+    background-color: #a3171b;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+main section#new article.menu_box ul.top_bot_menu li div ul a li.new{
+    width: 50px; height: 40px;
+}
+main section#new article.menu_box ul.middle_menu li div ul a li.new{
+    width: 40px; height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+main section#new article.menu_box ul.top_bot_menu li div ul a li.box{
+    width: 0px; height: 0px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+}
+main section#new article.menu_box ul.middle_menu li div ul a li.box{
+    width: 0px; height: 0px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+}
+main section#new article.menu_box ul li div ul a li.box2{
+    width: 100%; height: 100%;
+    position: absolute;
+    margin: 0px;
+    z-index: 1;
+}
+main section#new article.menu_box ul.top_bot_menu li div ul a li.best{
+    width: 40px; height: 30px;
+    position: absolute;
+    right: 20px;
+}
+main section#new article.menu_box ul li div a:hover li.box2{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+main section#new article.menu_box ul.top_bot_menu li div ul a:hover li.box{
+    width: 200px; height: 50px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    left: 145px; top: 150px;
+}
+main section#new article.menu_box ul.top_bot_menu li div.top_bot_imgbox_2 ul a:hover li.box{
+    top: 100px;    
+}
+main section#new article.menu_box ul.middle_menu li div ul a:hover li.box{
+    width: 150px; height: 40px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    left: 89px; top: 94px;
+    font-size: 14px;
+}
+main section#new article.menu_box ul.top_bot_menu li div.top_bot_textbox{
+    width: 497px; height: 82px;
+    background-color: lightgray;
+    position: relative;
+}
+main section#new article.menu_box ul.middle_menu li{
+    margin: 0 0 10px 10px;
+    float: left;
+    position: relative;
+}
+main section#new article.menu_box ul.middle_menu li:first-child{
+    margin: 0 0 10px 0;
+}
+main section#new article.menu_box ul.middle_menu li div.middle_imgbox{
+    width: 328px; height: 228px;
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+main section#new article.menu_box ul.middle_menu li div ul a{
+    width: 328px; height: 228px;
+    display: inline-block;
+    background-size: 328px;
+    position: relative;
+}
+a.img03{
+    background-image: url(../img/new_menu_03.png);
+}
+a.img04{
+    background-image: url(../img/new_menu_04.png);
+}
+a.img05{
+    background-image: url(../img/new_menu_05.png);
+}
+main section#new article.menu_box ul.middle_menu li div.middle_textbox{
+    width: 328px; height: 82px;
+    position: relative;
+    background-color: lightgray;
+}
+.name, .price{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    position: absolute; 
+    padding: 5px;
+    box-sizing: border-box;
+}
+.name{
+    top: 10px;
+    left: 10px;
+}
+.price{
+    bottom: 10px;
+    right: 10px;
+}
